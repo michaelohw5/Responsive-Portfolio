@@ -119,6 +119,8 @@ a.haeder-name-link:active {
 .profile-pic {
     float: left;
     padding-right: 10px;
+    height: 200px;
+    width: 200px;
 }
 
 p {
@@ -220,4 +222,63 @@ h3 {
     text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+    .main-content {
+        width: 60%;
+        float: left;
+        margin-left: 50px;
+    }
 
+    .header-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .header-wrapper {
+        width: 90%;
+    }
+
+    .profile-pic {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header-wrapper {
+        position: static;
+        width: 100%;
+    }
+
+    .profile-pic {
+        height: 70%;
+        width: 90%;
+        float: none;
+    }
+
+    .header-name {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header-links {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+}
