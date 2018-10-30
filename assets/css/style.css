@@ -232,6 +232,34 @@ h3 {
     .header-wrapper {
         width: 90%;
     }
+
+    .portfolio-pic-container {
+        position: relative;
+        height: 150px;
+        width: 35%;
+        display: inline-block;
+        /* margin: 0 auto; */
+        margin: 20px;
+    }
+    .portfolio-pic {
+        height: 100%;
+        width: 100%;
+    }
+
+    .portfolio-labels {
+        position: absolute;
+        bottom: 5px;
+        background-color: #4aaaa5;
+        color: white;
+        height: 25%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .label-text {
+        margin: 0;
+        margin-top: 10%;
+    }
 }
 
 @media screen and (max-width: 768px) {
