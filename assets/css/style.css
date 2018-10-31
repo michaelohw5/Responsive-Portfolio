@@ -235,14 +235,16 @@ h3 {
 
     .portfolio-pic-container {
         position: relative;
-        height: 150px;
+        height: auto;
         width: 35%;
         display: inline-block;
         /* margin: 0 auto; */
         margin: 20px;
+        margin-left: 35px;
     }
+
     .portfolio-pic {
-        height: 100%;
+        height: auto;
         width: 100%;
     }
 
@@ -272,7 +274,7 @@ h3 {
     }
 
     .profile-pic {
-        height: 300px;
+        height: auto;
         width: 300px;
     }
 }
@@ -288,9 +290,10 @@ h3 {
     }
 
     .profile-pic {
-        height: 70%;
-        width: 90%;
+        height: auto;
+        width: 100%;
         float: none;
+        margin: 0;
     }
 
     .header-name {
@@ -307,5 +310,34 @@ h3 {
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0;
+    }
+
+    .portfolio-pic-container {
+        position: relative;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .portfolio-pic {
+        height: auto;
+        width: 100%;
+    }
+
+    .portfolio-labels {
+        position: absolute;
+        bottom: 5%;
+        background-color: #4aaaa5;
+        color: white;
+        height: 25%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .label-text {
+        margin: 0;
+        margin-top: 10%;
     }
 }
